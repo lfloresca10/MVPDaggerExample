@@ -1,3 +1,1 @@
 # MVPDaggerExample
-
-#Dagger 2
