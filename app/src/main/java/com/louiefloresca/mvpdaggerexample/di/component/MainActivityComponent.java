@@ -1,9 +1,6 @@
 package com.louiefloresca.mvpdaggerexample.di.component;
 
-import android.content.Context;
-
 import com.louiefloresca.mvpdaggerexample.di.module.MainActivityModule;
-import com.louiefloresca.mvpdaggerexample.di.qualifier.ActivityContext;
 import com.louiefloresca.mvpdaggerexample.di.scope.ActivityScope;
 import com.louiefloresca.mvpdaggerexample.ui.MainActivity;
 

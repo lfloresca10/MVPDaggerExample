@@ -8,7 +8,6 @@ import com.louiefloresca.mvpdaggerexample.api.APIInterface;
 import com.louiefloresca.mvpdaggerexample.data.Result;
 import com.louiefloresca.mvpdaggerexample.di.qualifier.ActivityContext;
 import com.louiefloresca.mvpdaggerexample.di.scope.ActivityScope;
-import com.louiefloresca.mvpdaggerexample.ui.MainActivity;
 import com.louiefloresca.mvpdaggerexample.ui.MainActivityAdapter;
 import com.louiefloresca.mvpdaggerexample.ui.MainActivityContract;
 import com.louiefloresca.mvpdaggerexample.ui.MainActivityPresenter;

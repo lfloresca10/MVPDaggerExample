@@ -1,8 +1,7 @@
 package com.louiefloresca.mvpdaggerexample.ui;
 
-import android.content.ClipData;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -11,7 +10,6 @@ import android.widget.Toast;
 import com.louiefloresca.mvpdaggerexample.MvpDaggerApp;
 import com.louiefloresca.mvpdaggerexample.R;
 import com.louiefloresca.mvpdaggerexample.api.APIInterface;
-import com.louiefloresca.mvpdaggerexample.data.Image;
 import com.louiefloresca.mvpdaggerexample.data.Result;
 import com.louiefloresca.mvpdaggerexample.di.component.DaggerMainActivityComponent;
 import com.louiefloresca.mvpdaggerexample.di.component.MainActivityComponent;
@@ -25,7 +23,6 @@ import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.Unbinder;
 
 public class MainActivity extends AppCompatActivity implements MainActivityContract.View {
 

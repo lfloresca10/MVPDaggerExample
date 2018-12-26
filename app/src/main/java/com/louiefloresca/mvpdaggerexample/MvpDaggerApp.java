@@ -5,7 +5,6 @@ import android.app.Application;
 import com.louiefloresca.mvpdaggerexample.di.component.ApplicationComponent;
 import com.louiefloresca.mvpdaggerexample.di.component.DaggerApplicationComponent;
 import com.louiefloresca.mvpdaggerexample.di.module.ApplicationModule;
-//import com.louiefloresca.mvpdaggerexample.di.component.DaggerApplicationComponent;
 
 public class MvpDaggerApp extends Application  {
 
